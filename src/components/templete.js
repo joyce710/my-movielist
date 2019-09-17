@@ -8,7 +8,7 @@ function Templete (props){
                 <h2>{listName}</h2>
                 <ul  className="container">
                     { list.map(item=>(
-                    <li class="li-container" key={item.id} >
+                    <li className="li-container" key={item.id} >
                         <p>{item.title}</p>
                         <img src={item.img} alt={item.title}></img>
                         <button id={item.id} onClick={()=>eventhandler(item)}>
