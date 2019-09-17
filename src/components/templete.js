@@ -6,7 +6,7 @@ function Templete (props){
         return(
             <div>
                 <h2>{listName}</h2>
-                <ul  class="container">
+                <ul  className="container">
                     { list.map(item=>(
                     <li class="li-container" key={item.id} >
                         <p>{item.title}</p>

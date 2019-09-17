@@ -1,5 +1,4 @@
 import axios from 'axios'
-
 function gotData(res){
     return{
         type:"GOT_DATA",
@@ -16,8 +15,7 @@ export const fetchData = () =>{
               })
               .catch(error=>{
                   console.log('error');
-              })
-        
+              }) 
     }
 }
 export const addToMylist=(data)=>{
