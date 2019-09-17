@@ -1,9 +1,8 @@
 import React from 'react';
 import '../App.css'
 
-class  Templete extends React.Component{
-    render(){
-   const {listName,list,eventhandler} = this.props;
+function Templete (props){
+   const {listName,list,eventhandler} = props;
         return(
             <div>
                 <h2>{listName}</h2>
@@ -21,6 +20,6 @@ class  Templete extends React.Component{
                 </ul>
             </div>
         )
-                    }
+                    
 }
 export default Templete
