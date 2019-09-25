@@ -7,7 +7,7 @@ function gotData(res){
 }
 export const fetchData = () =>{
     return (dispatch,getState) => {
-        axios
+            axios
               .get('/movieData.json')
               .then(response=>{
                   dispatch(gotData(response))

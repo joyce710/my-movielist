@@ -17,7 +17,7 @@ class HomePage extends React.Component{
             <Templete listName="My List" list={mylist} eventhandler={RemoveHandler}></Templete>
             <Templete listName="Recommendation" list={recommendationList} eventhandler={AddHandler}></Templete>
             <h2>movie List</h2>
-            <ul>
+             <ul>
                 {mylist.map(item=><li key={item.id}>{item.title}</li>)}
             </ul>
         </div>

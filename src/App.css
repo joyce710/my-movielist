@@ -1,4 +1,5 @@
 body{
+  margin:15px;
   background-color: black;
 }
 h2{
@@ -41,11 +42,12 @@ button{
   border: none; 
 }
 button {
-  display: none;
+  visibility: hidden;
 }
 
 img:hover + button, button:hover {
-  display: inline-block;
+  /*display: inline-block; */
+  visibility: visible
 }
 
 
